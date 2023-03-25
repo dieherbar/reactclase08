@@ -2,14 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import MyButton from './_button'
+import MyInput from './_input'
+import MyVideo from './_video'
 
 const inter = Inter({ subsets: ['latin'] })
 
-function MyButton() {
-  return (
-    <button>Soy un boton!</button>
-  );
-}
+
 
 export default function Home() {
   return (
@@ -26,6 +25,7 @@ export default function Home() {
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
           </p>
+          
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -72,15 +72,14 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+             <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
           </a>
-          <MyButton />
-
+          
           <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -109,6 +108,8 @@ export default function Home() {
             </p>
           </a>
 
+          
+
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -124,6 +125,11 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <div>
+        <MyButton />
+        <MyVideo />
+          <MyInput />
+          </div>
       </main>
     </>
   )
