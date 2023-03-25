@@ -284,11 +284,13 @@
   align-items: center;
 }
 .contenedor button{
-  background-color: black;
-  color: blanchedalmond;
+  background-color: rgb(68, 107, 143);
+  color: rgb(251, 255, 205);
   height: 2.5rem;
   width: 25%;
   margin-bottom: 1rem;
+  border-radius: 5px;
+  border-color: rgba(0, 81, 255, 0.393);
 }
 .contenedor input{
   width: 25%;

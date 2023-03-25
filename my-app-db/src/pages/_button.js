@@ -1,6 +1,10 @@
 
 export default function MyButton() {
+    function saluda(){
+        alert("Somos " + Date());
+      }
     return (
-      <button>Soy un boton!</button>
+        <button onClick={saluda}> Soy un boton con la fecha!</button>
     );
   }
+  

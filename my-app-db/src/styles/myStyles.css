@@ -1,0 +1,4 @@
+.contentedor{
+    display: flex;
+    flex-direction: column;
+}

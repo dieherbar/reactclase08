@@ -1,4 +1,4 @@
-export default function(){
+export default function myInput(){
     let inputArray = ["Username", "date", "email", "password"];
     
     return(
